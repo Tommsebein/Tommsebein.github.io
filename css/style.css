@@ -1,0 +1,72 @@
+body{
+	/* This is a CSS comment */
+	background-image: url(../images/bj.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	font-family: 'Slabo 27px', serif;
+	
+}
+
+
+.main{
+	width: 80%;
+	margin: 0 auto;
+	background: rgba(255,250,205,0.7);
+	padding: 40px 40px 40px 40px;
+	border-radius: : 200px;
+	box-shadow: 0px 0px 5px 5px rgba(255,239,213,0.8);
+	
+}
+
+h1{
+	/* This is the looky looky header */
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	color: black;
+}
+
+h2{
+	/* This is what I stand for */
+	text-align: center;
+	text-transform: uppercase;
+	background-color: rgba(255,250,205,0.3);
+	border: 2px dashed white;
+	letter-spacing: 5px
+}
+
+h3{
+	color: black;
+	cursor: pointer;
+}
+
+img{
+	/* This is the image */
+	display: block;
+	margin: 0 auto;
+	border: 5px dashed white;
+	border-radius: 50% 0;
+}
+p,
+ul,
+ol{
+	/* This is the formatting of the text elements */
+	line-height: 1.4;
+	list-style: none;
+	padding-left: 0;
+	color: dark grey;
+}
+
+
+
+a {
+	color: dark grey;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
